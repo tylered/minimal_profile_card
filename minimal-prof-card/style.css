@@ -1,0 +1,120 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@100&display=swap');
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    font-size: 10px;
+}
+
+body {
+    background-color: black;
+    color: #E9E5E4;
+    font-family: 'Work Sans', sans-serif;
+
+}
+
+section {
+    width: 30rem;
+    position: absolute;
+    top: 50%;
+    right: 50%;
+    transform: translate(50%, -50%);
+    box-shadow: 0px 10px 20px -4px #fc45bd;
+}
+
+li {
+    list-style: none;
+}
+
+.profile {
+    background-color: #0d6085;
+    padding: 2.5rem 0 1.5rem 0;
+}
+
+
+.profile .prof_pic {
+    width: 12rem;
+    height: 12rem;
+    border: 0.1rem solid #fc45bd;
+    border-radius: 50%;
+    display: block;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+
+.skills {
+    background-color: #bb4198;
+    padding: 1.5rem 1.1rem;
+}
+
+.profile .name, .skill {
+    font-size: 1.3rem;
+}
+
+.profile p, .profile h1, .skills ul, .skills .skill {
+    text-align: center;
+}
+
+.profile .name {
+    margin-top: 1.2rem;
+}
+
+.profile .career {
+    margin-top: 1.2rem;
+}
+
+
+button {
+    margin-top: 0.6rem;
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+    font-family: 'Work Sans', sans-serif;
+    font-size:0.8rem;
+    padding: 0.3rem 0.8rem;
+    background-color: #bb4198;
+    border-radius: 2px;
+    border: none;
+    color: #E9E5E4;
+}
+
+
+button:hover {
+    cursor:pointer;
+}
+
+.skills ul {
+    text-align: center;
+    padding: 1rem 0;
+}
+
+.skills li {
+    display:inline-block;
+    font-size: 0.9rem;
+    border: 0.05rem solid #8eb3c6;
+    border-radius: 10%;
+    padding: 0.1rem 0.3rem;
+    margin: 0 0.1rem;
+    
+}
+
+.social {
+    text-align: center;
+    margin-top: 1rem;
+}
+
+.social i {
+    font-size: 1.5rem;
+    margin: 0.1rem;
+    color:#bb4198;
+}
+
+
+.social i:hover {
+    color: white;
+}
